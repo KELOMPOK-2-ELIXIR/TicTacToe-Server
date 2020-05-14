@@ -9,14 +9,29 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       allowNull: false,
       validate : {
+        notNull: {
+          args: true,
+          msg: "Username is required"
+        },
         notEmpty: {
           args: true,
-          msg: `Username must be filled`
+          msg: "Username is required"
         }
       }
     },
     room: {
-      type: DataTypes.INTEGER
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      validate: {
+        notNull: {
+          args: true,
+          msg: "Room is required"
+        },
+        notEmpty: {
+          args: true,
+          msg: "Room is required"
+        }
+      }
     },
     row: {
       type: DataTypes.INTEGER
