@@ -34,10 +34,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     row: {
-      type: DataTypes.INTEGER
-    } ,
-    column: {
-      type:DataTypes.INTEGER
+      type: DataTypes.STRING
     }
   }, {
     sequelize,

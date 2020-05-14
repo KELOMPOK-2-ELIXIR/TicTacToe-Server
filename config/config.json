@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "postgres",
-    "password": "cokrosiamdani",
+    "password": "123lab46",
     "database": "tictactoedb",
     "host": "127.0.0.1",
     "dialect": "postgres"

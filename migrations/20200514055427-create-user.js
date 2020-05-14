@@ -17,10 +17,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       row: {
-        type: Sequelize.INTEGER
-      },
-      column: {
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
